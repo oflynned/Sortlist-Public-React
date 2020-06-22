@@ -18,6 +18,16 @@ footer {
       }
     }
 
+    div.social-media-links {
+      ul {
+        > li {
+          width: 32px;
+          display: inline-block;
+          margin: 8px 16px;
+        }
+      }
+    }
+
     div.links {
       flex: 1;
       display: flex;

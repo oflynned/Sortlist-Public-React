@@ -2,6 +2,8 @@ import React from "react"
 import "./style.scss"
 
 import Logo from "../../images/logo.svg"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faTwitter, faInstagram, faLinkedin, faYoutube, faFacebook } from "@fortawesome/free-brands-svg-icons"
 
 export const Footer = () => {
   return (
@@ -37,6 +39,26 @@ export const Footer = () => {
             <li><a href={"#"}>I'm an agency</a></li>
           </ul>
         </div>
+      </div>
+
+      <div className={"social-media"}>
+        <ul>
+          <li>
+            <FontAwesomeIcon icon={faTwitter} size={"2x"}/>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faFacebook} size={"2x"}/>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faLinkedin} size={"2x"}/>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faInstagram} size={"2x"}/>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faYoutube} size={"2x"}/>
+          </li>
+        </ul>
       </div>
 
       <p>2020 &copy; Sortlist | All rights reserved - Terms - Privacy - Help centre - Countries - English</p>
