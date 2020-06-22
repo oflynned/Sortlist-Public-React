@@ -28,12 +28,10 @@
   },
   "scripts": {
     "build": "gatsby build",
+    "heroku-postbuild": "gatsby build",
+    "start": "gatsby serve",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "heroku-postbuild": "yarn build",
-    "start": "yarn develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
