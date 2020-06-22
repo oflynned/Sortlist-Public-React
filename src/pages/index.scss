@@ -1,3 +1,60 @@
-* {
-  font-family: 'Lato', sans-serif;
+body {
+  * {
+    font-family: 'Lato', sans-serif;
+  }
+
+  .fill {
+    min-height: 100vh;
+  }
+
+  .half {
+    min-height: 50vh;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  main {
+    max-width: 1200px;
+  }
+
+  section.hero {
+    display: flex;
+    height: calc(100vh - 30px);
+    align-items: center;
+
+    div.expertise-titles {
+
+      div.title {
+        h1, div {
+          font-family: "Merriweather", sans-serif;
+          font-weight: 500;
+          font-size: 48px;
+
+          &.expertise {
+            font-weight: bold;
+          }
+        }
+      }
+
+      .search-card {
+        margin-top: 32px;
+
+        > div {
+          justify-content: space-between;
+        }
+      }
+
+      .find-agency {
+        span {
+          font-size: 16px;
+
+          &.material-icons {
+            margin-left: 8px;
+          }
+        }
+      }
+    }
+  }
 }
