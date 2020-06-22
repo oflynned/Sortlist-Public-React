@@ -1,0 +1,70 @@
+div.map {
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 25%;
+  width: 1200px;
+  height: auto;
+  z-index: 1;
+}
+
+section.hero {
+  display: flex;
+  height: calc(100vh - 30px);
+  align-items: center;
+
+  div.expertise-titles {
+    z-index: 2;
+    div.title {
+      h1, div {
+        font-family: "Merriweather", sans-serif;
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 32px;
+
+        &.expertise {
+          font-weight: bold;
+        }
+      }
+    }
+
+    .search-card {
+      margin-top: 32px;
+
+      > div {
+        justify-content: space-between;
+      }
+
+      .material-icons.primary {
+        color: #ffc061;
+      }
+    }
+
+    .find-agency {
+      span {
+        font-size: 16px;
+
+        &.material-icons {
+          margin-left: 8px;
+        }
+      }
+    }
+
+    .expertise-links {
+      margin-top: 32px;
+
+      ul {
+        max-width: 768px;
+
+        > li {
+          margin: 8px 0;
+          display: inline-block;
+
+          > span {
+            margin: 0 8px;
+          }
+        }
+      }
+    }
+  }
+}
