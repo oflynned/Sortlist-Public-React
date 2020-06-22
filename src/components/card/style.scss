@@ -1,0 +1,12 @@
+div.card {
+  width: 768px;
+  height: 64px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
+  > .card-container {
+    padding: 10px;
+    display: flex;
+  }
+}
