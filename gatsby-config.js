@@ -18,7 +18,8 @@ module.exports = {
       options: {
         fonts: [
           `material icons`,
-          `lato`
+          `lato`,
+          `merriweather`
         ],
         display: "swap"
       }
