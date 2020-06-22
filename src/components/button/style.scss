@@ -1,0 +1,33 @@
+button.btn {
+  font-family: inherit;
+  outline: none;
+  border-radius: 6px;
+  border: none;
+  padding: 12px 16px;
+  margin: 0 4px;
+  background-color: transparent;
+  transition-duration: 0.5s;
+  color: #495065;
+
+  &.btn-primary {
+    //color: #a76504;
+    background-color: #ffd699;
+
+    &:hover {
+      background-color: #ffc061;
+    }
+  }
+
+  &.btn-secondary {
+    //color: #20c5e5;
+    background-color: #eefafd;
+
+    &:hover {
+      background-color: #d7f5fa;
+    }
+  }
+
+  &:hover {
+    background-color: #c5c9ce;
+  }
+}
