@@ -1,7 +1,7 @@
 import React from "react"
 import "./discover-agencies.section.scss"
 
-import MagnifyingGlass from "../../images/magnifying-glass.svg"
+import Globe from "../../images/globe.svg"
 import { PrimaryButton } from "../button"
 
 export const DiscoverAgencies = () => {
@@ -13,7 +13,7 @@ export const DiscoverAgencies = () => {
       <div className={"split-half"}>
         <div className={"content"}>
           <div className={"icon-background"}>
-            <img src={MagnifyingGlass}/>
+            <img src={Globe} alt={"globe"}/>
           </div>
           <h1 className={"fancy"}>Discover the best agencies</h1>
           <h1 className={"fancy"}>across the globe</h1>
