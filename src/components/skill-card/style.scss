@@ -1,0 +1,9 @@
+div.skill-card {
+  width: 256px;
+  height: 256px;
+  margin: 16px;
+  
+  &:hover {
+    cursor: pointer;
+  }
+}
