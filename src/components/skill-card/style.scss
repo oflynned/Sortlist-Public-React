@@ -1,8 +1,21 @@
-div.skill-card {
+div.card.skill-card {
   width: 256px;
   height: 256px;
   margin: 16px;
-  
+  background-color: #eefafd;
+
+  .card-container {
+    display: flex;
+    height: 90%;
+    margin: 16px;
+    align-items: flex-end;
+    text-align: left;
+
+    > * {
+      display: inline-block;
+    }
+  }
+
   &:hover {
     cursor: pointer;
   }
