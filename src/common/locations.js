@@ -3,5 +3,6 @@ export const locations = [
   "Cork",
   "Galway",
   "Belfast",
-  "Waterford"
+  "Waterford",
+  "Kilkenny",
 ]

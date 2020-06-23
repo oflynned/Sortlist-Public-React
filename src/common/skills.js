@@ -1,3 +1,5 @@
+import { locations } from "./locations"
+
 export const skills = [
   "Advertising",
   "Content marketing",
@@ -31,4 +33,11 @@ const shuffle = (array) => {
 
 export const getRandomSkills = (n = 10) => {
   return shuffle(skills.slice(0, n))
+}
+
+export const getRandomSkillInLocation = () => {
+  return {
+    location: shuffle(locations)[0],
+    skill: shuffle(skills)[0]
+  }
 }
