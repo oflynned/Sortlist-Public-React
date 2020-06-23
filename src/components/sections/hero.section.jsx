@@ -7,28 +7,10 @@ import { PrimaryButton } from "../button"
 import { Map } from "../lazy-image/map"
 
 import "./hero.section.scss"
+import { getRandomSkills } from "../../common/skills"
 
-const expertiseAreas = [
-  "Advertising",
-  "Content marketing",
-  "Digital marketing",
-  "Video production",
-  "Design",
-  "Web development",
-  "Social media",
-  "3D",
-  "Online advertising",
-  "Media",
-  "SEO",
-  "Gaming",
-  "Data consulting",
-  "Innovation consulting",
-  "Web analytics",
-  "Public relations",
-  "Copywriting",
-  "Mobile app development",
-  "Web design"
-]
+const skillLimit = 10
+const skills = getRandomSkills(skillLimit)
 
 export const Hero = () => {
   return (
@@ -42,7 +24,7 @@ export const Hero = () => {
           <div className={"title"}>
             <h1>Find your future</h1>
             <div className={"expertise"}>
-              <TextLoop interval={2000} children={expertiseAreas.map(exp => exp.toLowerCase())}/>
+              <TextLoop interval={2000} children={skills.map(exp => exp.toLowerCase())}/>
             </div>
             <h1>agency now</h1>
             <p>Agencies sorted by us. Rated by clients.</p>
@@ -63,14 +45,13 @@ export const Hero = () => {
 
           <div className={"expertise-links"}>
             <ul>
-              {expertiseAreas.slice(0, 10)
-                .map((exp, index) => {
-                  if (index < 9) {
-                    return <li key={exp}>{exp}<span>|</span></li>
-                  }
+              {skills.map((exp, index) => {
+                if (index < skillLimit - 1) {
+                  return <li key={exp}>{exp}<span>|</span></li>
+                }
 
-                  return <li key={exp}>{exp}</li>
-                })}
+                return <li key={exp}>{exp}</li>
+              })}
             </ul>
           </div>
         </div>

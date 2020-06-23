@@ -12,6 +12,7 @@ import { Press } from "../components/sections/press.section"
 import Header from "../components/header"
 import { Footer } from "../components/footer"
 import { Process } from "../components/sections/process.section"
+import { PopularServices } from "../components/sections/popular-services.section"
 
 const IndexPage = () => (
   <>
@@ -19,19 +20,11 @@ const IndexPage = () => (
     <SEO title="Find your future agency now! - Sortlist"/>
     <Layout>
       <Hero/>
-
-      <section className={"half popular-services"}>
-        <h1>Most <emph>popular services</emph> in your area</h1>
-      </section>
-
+      <PopularServices/>
       <Process/>
 
-      {/*<section className={"half trust-pilot"} style={{ backgroundColor: "blue" }}></section>*/}
-
     </Layout>
-
     <Press/>
-
     <Layout>
       <Footer/>
     </Layout>
