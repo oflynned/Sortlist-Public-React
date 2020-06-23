@@ -4,5 +4,17 @@ export const locations = [
   "Galway",
   "Belfast",
   "Waterford",
-  "Kilkenny",
+  "Kilkenny"
 ]
+
+export const sortAlphabetically = (a, b) => {
+  if (a > b) {
+    return 1
+  }
+
+  if (b > a) {
+    return -1
+  }
+
+  return 0
+}

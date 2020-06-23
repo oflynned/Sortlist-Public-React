@@ -37,7 +37,7 @@ export const getRandomSkills = (n = 10) => {
 
 export const getRandomSkillInLocation = () => {
   return {
-    location: shuffle(locations)[0],
-    skill: shuffle(skills)[0]
+    location: shuffle([...locations])[0],
+    skill: shuffle([...skills])[0]
   }
 }
