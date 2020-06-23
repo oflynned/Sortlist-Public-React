@@ -1,0 +1,42 @@
+section.popular-agencies-nearby {
+  margin: 32px auto;
+
+  h1 {
+    margin-top: 64px;
+    text-align: center;
+  }
+
+  h3 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  h3 {
+    margin-top: 32px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  a {
+    color: #20C5E5;
+    text-decoration: none;
+  }
+
+  div.grid {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+    ul {
+      flex: 1;
+      margin: 32px auto;
+
+      li {
+        margin: 16px auto;
+      }
+    }
+  }
+}
