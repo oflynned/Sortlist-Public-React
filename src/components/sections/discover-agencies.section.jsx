@@ -18,8 +18,7 @@ export const DiscoverAgencies = () => {
           <h1 className={"fancy"}>Discover the best agencies</h1>
           <h1 className={"fancy"}>across the globe</h1>
           <p>There’s nothing worse than not finding what you need. That won’t happen on Sortlist. From big cities to
-            small
-            towns, we’ve got more than 80,000 agencies across the globe.</p>
+            small towns, we’ve got more than 80,000 agencies across the globe.</p>
           <PrimaryButton>Find my agency</PrimaryButton>
         </div>
       </div>
