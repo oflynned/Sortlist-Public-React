@@ -8,7 +8,6 @@ import { getRandomSkillInLocation } from "../../common/skills"
 export const PopularAgenciesNearby = () => {
   const a = new Array(30).fill(0)
   const recentSearches = a.map(() => getRandomSkillInLocation())
-  console.log(recentSearches)
 
   return (
     <section className={"popular-agencies-nearby"}>
