@@ -61,7 +61,7 @@ export const Footer = () => {
         </ul>
       </div>
 
-      <p>2020 &copy; Sortlist | All rights reserved - Terms - Privacy - Help centre - Countries - English</p>
+      <p>{new Date().getFullYear()} &copy; Sortlist | All rights reserved - Terms - Privacy - Help centre - Countries - English</p>
     </footer>
   )
 }

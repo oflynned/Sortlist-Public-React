@@ -11,6 +11,7 @@ import { Hero } from "../components/sections/hero.section"
 import { Press } from "../components/sections/press.section"
 import Header from "../components/header"
 import { Footer } from "../components/footer"
+import { Process } from "../components/sections/process.section"
 
 const IndexPage = () => (
   <>
@@ -19,8 +20,12 @@ const IndexPage = () => (
     <Layout>
       <Hero/>
 
-      {/*<section className={"half popular-services"} style={{ backgroundColor: "red" }}></section>*/}
-      {/*<section className={"half process"} style={{ backgroundColor: "green" }}></section>*/}
+      <section className={"half popular-services"}>
+        <h1>Most <emph>popular services</emph> in your area</h1>
+      </section>
+
+      <Process/>
+
       {/*<section className={"half trust-pilot"} style={{ backgroundColor: "blue" }}></section>*/}
 
     </Layout>
