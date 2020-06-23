@@ -1,0 +1,53 @@
+section.popular-services {
+  * {
+    text-align: center;
+  }
+
+  div.locations {
+    ul.location-tags {
+      display: flex;
+      list-style: none;
+      margin-top: 32px;
+
+      li {
+        flex: 1;
+        display: inline-block;
+        transition-duration: 0.3s;
+
+        &:hover {
+          cursor: pointer;
+        }
+
+        &.selected {
+          font-weight: 700;
+          opacity: 1;
+        }
+
+        &.unselected {
+          opacity: 0.5;
+          font-weight: 500;
+
+          .selector {
+            //opacity: 0;
+          }
+        }
+
+        .selector {
+          margin: 8px auto;
+          background-color: #20c5e5;
+          width: 8px;
+          height: 8px;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+
+  div.skills-grid {
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
