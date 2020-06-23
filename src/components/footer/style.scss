@@ -1,11 +1,27 @@
 footer {
   width: 1200px;
-  margin: 32px auto;
+  margin: 128px auto 64px;
 
   p {
     margin-top: 32px;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 28px;
+  }
+
+  div.social-media {
+    ul {
+      margin: 32px 0 64px;
+
+      li {
+        width: 32px;
+        display: inline-block;
+        margin: 8px 16px;
+      }
+
+      li:first-child {
+        margin: 8px 16px 8px 0;
+      }
+    }
   }
 
   div.split {
@@ -16,16 +32,6 @@ footer {
 
       img {
         height: 30px;
-      }
-    }
-
-    div.social-media-links {
-      ul {
-        > li {
-          width: 32px;
-          display: inline-block;
-          margin: 8px 16px;
-        }
       }
     }
 

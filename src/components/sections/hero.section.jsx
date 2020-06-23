@@ -10,7 +10,7 @@ import "./hero.section.scss"
 import { getRandomSkills } from "../../common/skills"
 
 const skillLimit = 10
-const skills = getRandomSkills(skillLimit)
+const expertiseAreas = getRandomSkills(skillLimit)
 
 export const Hero = () => {
   return (
@@ -24,7 +24,7 @@ export const Hero = () => {
           <div className={"title"}>
             <h1>Find your future</h1>
             <div className={"expertise"}>
-              <TextLoop interval={2000} children={skills.map(exp => exp.toLowerCase())}/>
+              <TextLoop interval={2000} children={expertiseAreas.map(exp => exp.toLowerCase())}/>
             </div>
             <h1>agency now</h1>
             <p>Agencies sorted by us. Rated by clients.</p>
@@ -45,7 +45,7 @@ export const Hero = () => {
 
           <div className={"expertise-links"}>
             <ul>
-              {skills.map((exp, index) => {
+              {expertiseAreas.map((exp, index) => {
                 if (index < skillLimit - 1) {
                   return <li key={exp}>{exp}<span>|</span></li>
                 }

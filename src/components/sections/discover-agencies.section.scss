@@ -1,0 +1,30 @@
+section.discover-agencies {
+  margin: 32px auto;
+  display: flex;
+
+  .placeholder {
+    width: 512px;
+    height: 512px;
+    background-color: red;
+  }
+
+  .icon-background {
+    margin-bottom: 48px;
+  }
+
+  h1 {
+    line-height: 24px;
+  }
+
+  p {
+    margin: 48px auto;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  div.split-half {
+    display: flex;
+    flex: 1;
+    align-items: center;
+  }
+}

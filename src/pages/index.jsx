@@ -18,6 +18,7 @@ import "./index.scss"
 import { CoreValues } from "../components/sections/core-values.section"
 import { Divider } from "../components/divider"
 import { PopularAgenciesNearby } from "../components/sections/popular-agencies-nearby.section"
+import { DiscoverAgencies } from "../components/sections/discover-agencies.section"
 
 const IndexPage = () => (
   <>
@@ -37,8 +38,15 @@ const IndexPage = () => (
 
     <Divider/>
     <Press/>
+
     <Layout>
       <PopularAgenciesNearby/>
+    </Layout>
+
+    <Divider halfWidth/>
+
+    <Layout>
+      <DiscoverAgencies/>
     </Layout>
 
     <Layout>

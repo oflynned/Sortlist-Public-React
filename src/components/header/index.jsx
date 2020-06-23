@@ -4,7 +4,7 @@ import Logo from "../../images/logo.svg"
 
 import "./style.scss"
 import { NeutralButton, PrimaryButton, SecondaryButton } from "../button"
-import { EditText, SearchBox } from "../edit-text"
+import { SearchBox } from "../edit-text"
 
 const Header = ({ siteTitle }) => (
   <header className={"navbar"}>

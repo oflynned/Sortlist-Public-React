@@ -21,15 +21,13 @@ body {
     min-height: 50vh;
   }
 
-  p {
-    font-size: 20px;
-  }
-
   main {
     max-width: 1200px;
   }
 
   .icon-background {
+    width: fit-content;
+    height: fit-content;
     padding: 8px;
     border-radius: 50%;
     background-color: #e2fafe;
