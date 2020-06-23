@@ -1,6 +1,9 @@
+@import "./src/theme/colours";
+
 body {
   * {
     font-family: 'Lato', sans-serif;
+    color: $tetsu-kon-blue;
   }
 
   .fancy {

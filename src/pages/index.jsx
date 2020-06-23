@@ -19,6 +19,7 @@ import { CoreValues } from "../components/sections/core-values.section"
 import { Divider } from "../components/divider"
 import { PopularAgenciesNearby } from "../components/sections/popular-agencies-nearby.section"
 import { DiscoverAgencies } from "../components/sections/discover-agencies.section"
+import { BetterPartners } from "../components/sections/better-partners.section"
 
 const IndexPage = () => (
   <>
@@ -49,7 +50,10 @@ const IndexPage = () => (
       <DiscoverAgencies/>
     </Layout>
 
+    <Divider/>
+
     <Layout>
+      <BetterPartners/>
       <Footer/>
     </Layout>
   </>

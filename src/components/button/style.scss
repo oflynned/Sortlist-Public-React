@@ -1,3 +1,5 @@
+@import "./src/theme/colours";
+
 button.btn {
   font-family: inherit;
   outline: none;
@@ -7,27 +9,25 @@ button.btn {
   margin: 0 4px;
   background-color: transparent;
   transition-duration: 0.5s;
-  color: #495065;
+  color: $tried-and-true-blue;
 
   &.btn-primary {
-    //color: #a76504;
-    background-color: #ffd699;
+    background-color: $caramel-finish;
 
     &:hover {
-      background-color: #ffc061;
+      background-color: $sea-buckthorn;
     }
   }
 
   &.btn-secondary {
-    //color: #20c5e5;
-    background-color: #eefafd;
+    background-color: $alice-blue;
 
     &:hover {
-      background-color: #d7f5fa;
+      background-color: $water;
     }
   }
 
   &:hover {
-    background-color: #c5c9ce;
+    background-color: $herring-silver;
   }
 }

@@ -8,6 +8,7 @@ import { Map } from "../lazy-image/map"
 
 import "./hero.section.scss"
 import { getRandomSkills } from "../../common/skills"
+import { SkillSearch } from "../complex-components/skill-search"
 
 const skillLimit = 10
 const expertiseAreas = getRandomSkills(skillLimit)
@@ -30,18 +31,7 @@ export const Hero = () => {
             <p>Agencies sorted by us. Rated by clients.</p>
           </div>
 
-          <Card className={"search-card"}>
-            <div>
-              <span className={"material-icons primary"}>search</span>
-              <EditText placeholder={"What services do you need?"}/>
-            </div>
-            <PrimaryButton>
-              <div className={"find-agency"}>
-                <span>Find my agency</span>
-                <span className={"material-icons"}>arrow_forward</span>
-              </div>
-            </PrimaryButton>
-          </Card>
+          <SkillSearch/>
 
           <div className={"expertise-links"}>
             <ul>

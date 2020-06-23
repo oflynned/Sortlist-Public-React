@@ -2,9 +2,14 @@ div.card {
   width: 768px;
   background-color: white;
   border-radius: 8px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
+  &.shadow {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  }
 
   .card-container {
+    position: relative;
+    width: 100%;
     padding: 8px 4px;
     display: flex;
   }
