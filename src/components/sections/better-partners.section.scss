@@ -1,0 +1,62 @@
+@import "src/theme/colours";
+
+section.better-partners {
+  .pill {
+    margin: auto;
+    border-radius: 16px;
+    width: fit-content;
+    background-color: #FFF6E7;
+
+    p {
+      padding: 8px 16px;
+      margin: 0;
+    }
+  }
+
+  .block {
+    width: 768px;
+    text-align: center;
+
+    p {
+      margin-top: 32px;
+      line-height: 24px;
+    }
+  }
+
+  > .card {
+    margin-top: 64px;
+    width: 100%;
+    border-radius: 16px;
+    background-color: $water;
+    display: inline-flex;
+
+    .content-container {
+      margin: 32px;
+
+      * {
+        color: $cool-dive;
+      }
+
+      h3 {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 700;
+      }
+
+      p {
+        margin: 16px 0 24px;
+      }
+    }
+
+    .image-container {
+      position: absolute;
+      height: 128px;
+      right: 0;
+      bottom: 0;
+
+      img {
+        width: 256px;
+      }
+    }
+  }
+}

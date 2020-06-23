@@ -1,0 +1,14 @@
+@import "src/theme/colours";
+
+.card.search-card {
+  margin-top: 64px;
+  background-color: white;
+
+  > div {
+    justify-content: space-between;
+  }
+
+  .material-icons.primary {
+    color: #ffc061;
+  }
+}
