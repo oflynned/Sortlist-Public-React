@@ -1,5 +1,13 @@
 div.divider {
   height: 1px;
-  width: 100%;
   background-color: #DDE2F0;
+
+  &.full-width {
+    width: 100%;
+  }
+
+  &.half-width {
+    margin: auto;
+    width: 50%;
+  }
 }

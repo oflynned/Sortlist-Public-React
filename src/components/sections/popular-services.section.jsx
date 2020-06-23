@@ -6,6 +6,7 @@ import { getRandomSkills, skills } from "../../common/skills"
 import { locations } from "../../common/locations"
 
 import "./popular-services.section.scss"
+import { Selector } from "../selector"
 
 const skillsPerLocation = locations.map(location => {
   return {
@@ -49,7 +50,7 @@ export const PopularServices = () => {
                   className={index === selectedTabIndex ? "selected" : "unselected"}
                   onClick={() => setSelectedTabIndex(index)}>
                 {tag}
-                {index === selectedTabIndex && <div className={"selector"}/>}
+                {index === selectedTabIndex && <Selector/>}
               </li>
             )
           })}

@@ -28,18 +28,6 @@ section.popular-services {
         &.unselected {
           opacity: 0.5;
           font-weight: 500;
-
-          .selector {
-            //opacity: 0;
-          }
-        }
-
-        .selector {
-          margin: 8px auto;
-          background-color: #20c5e5;
-          width: 8px;
-          height: 8px;
-          border-radius: 4px;
         }
       }
     }
