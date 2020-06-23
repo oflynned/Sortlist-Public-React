@@ -14,14 +14,11 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: "gatsby-plugin-web-font-loader",
       options: {
-        fonts: [
-          `material icons`,
-          `lato`,
-          `merriweather`
-        ],
-        display: "swap"
+        google: {
+          families: ["Merriweather", "Lato", "Material Icons"]
+        }
       }
     },
     `gatsby-plugin-sass`,
