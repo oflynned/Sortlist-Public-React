@@ -8,6 +8,11 @@ body {
     font-weight: 500;
   }
 
+  .centred {
+    width: fit-content;
+    margin: auto;
+  }
+
   .fill {
     min-height: 100vh;
   }
@@ -22,5 +27,11 @@ body {
 
   main {
     max-width: 1200px;
+  }
+
+  .icon-background {
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #e2fafe;
   }
 }
