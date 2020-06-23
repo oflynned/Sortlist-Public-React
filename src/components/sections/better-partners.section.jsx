@@ -25,8 +25,7 @@ export const BetterPartners = () => {
           <SkillSearch/>
         </div>
         <div className={"image-container"}>
-          <img src={IsometricBuildings} alt={"isometric " +
-          "heibuildings"}/>
+          <img src={IsometricBuildings} alt={"isometric buildings"}/>
         </div>
       </Card>
     </section>

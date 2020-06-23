@@ -20,7 +20,7 @@ export const Process = () => {
       <div className={"grid"}>
         <div className={"tile"}>
           <div className={"image-container"}>
-            <img src={SimpleProcess}/>
+            <img src={SimpleProcess} alt={"simple process"}/>
           </div>
           <h3 className={"fancy"}>Simple, quick and agile process</h3>
           <div className={"separator"}/>
@@ -29,7 +29,7 @@ export const Process = () => {
         </div>
         <div className={"tile"}>
           <div className={"image-container"}>
-            <img src={CompleteInfo}/>
+            <img src={CompleteInfo} alt={"complete information"}/>
           </div>
           <h3 className={"fancy"}>Complete and up-to-date information</h3>
           <div className={"separator"}/>
@@ -38,7 +38,7 @@ export const Process = () => {
         </div>
         <div className={"tile"}>
           <div className={"image-container"}>
-            <img src={PersonalAssistance}/>
+            <img src={PersonalAssistance} alt={"personal assistance"}/>
           </div>
           <h3 className={"fancy"}>Personal assistance</h3>
           <div className={"separator"}/>

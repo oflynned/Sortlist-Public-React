@@ -10,7 +10,7 @@ export const Footer = () => {
     <footer>
       <div className={"split"}>
         <div>
-          <img src={Logo}/>
+          <img src={Logo} alt={"logo"}/>
         </div>
 
         <div className={"about-us"}>
