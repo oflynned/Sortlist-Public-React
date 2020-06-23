@@ -7,7 +7,7 @@ import "./style.scss"
 export const SkillCard = ({ skill, location }) => {
   return (
     <Card className={"skill-card"}>
-      {skill} agencies
+      {skill}
       <br/>
       {location}
     </Card>

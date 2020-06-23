@@ -39,7 +39,7 @@ export const PopularServices = () => {
 
 
   return (
-    <section className={"half popular-services"}>
+    <section className={"popular-services"}>
       <h1 className={"fancy"}>Most popular services in your area</h1>
       <div className={"locations"}>
         <ul className={"location-tags"}>

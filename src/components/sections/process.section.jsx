@@ -11,7 +11,9 @@ export const Process = () => {
   return (
     <section className={"process"}>
       <div className={"centred spacing"}>
-        <img src={Cog} alt={"cog"}/>
+        <div className={"icon-background"}>
+          <img src={Cog} alt={"cog"}/>
+        </div>
       </div>
       <h1 className={"fancy"}>Make the right choice with confidence</h1>
       <p>Discover the most relevant agencies for your project based on your own specific requirements</p>
