@@ -1,5 +1,7 @@
+@import "src/theme/colours";
+
 section.core-values {
-  margin: 32px auto;
+  margin: 128px auto;
 
   * {
     text-align: center;
@@ -21,5 +23,82 @@ section.core-values {
 
   button {
     margin-top: 64px;
+  }
+
+  .competency-container {
+    display: flex;
+    margin: 64px auto;
+  }
+
+  .card {
+    display: flex;
+    width: 292px;
+    height: 450px;
+    margin: 8px 16px;
+
+    &:nth-child(1) {
+      margin-top: 32px;
+      transform: rotate(-6deg);
+    }
+
+    &:nth-child(2) {
+      transform: rotate(-3deg);
+    }
+
+    &:nth-child(3) {
+      transform: rotate(3deg);
+    }
+
+    &:nth-child(4) {
+      margin-top: 32px;
+      transform: rotate(6deg);
+    }
+
+    .container {
+      margin: 8px;
+      width: 100%;
+
+      .actions {
+        margin: 20px 8px;
+        width: calc(90% - 16px);
+        position: absolute;
+        bottom: 0;
+
+        .actions-content {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;;
+        }
+      }
+    }
+
+    .content-area {
+      padding: 8px;
+      height: fit-content;
+      border-radius: 4px;
+      background-color: #F7F7F7;
+
+      h3 {
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      p {
+        margin: 4px;
+        font-size: 16px;
+      }
+
+      .target-market {
+        margin: 64px 0 8px;
+      }
+
+      .image-container {
+        padding: 8px 0;
+
+        img {
+          width: 192px;
+        }
+      }
+    }
   }
 }
