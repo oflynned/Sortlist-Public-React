@@ -1,4 +1,30 @@
-div.press {
+section.full-width {
   background-color: #0C1C4A;
-  min-height: 256px;
+
+  .press {
+    max-width: 1200px;
+    padding: 64px 0;
+    margin: 0 auto;
+
+    h3 {
+      margin-bottom: 32px;
+      font-size: 24px;
+      color: white;
+      text-align: center;
+    }
+
+    .journalists {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .image-container {
+      margin: 32px;
+
+      img {
+        width: 128px;
+      }
+    }
+  }
 }

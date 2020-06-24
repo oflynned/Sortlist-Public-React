@@ -39,7 +39,6 @@ const IndexPage = () => (
       <CoreValues/>
     </Layout>
 
-    <Divider/>
     <Press/>
 
     <Layout>
