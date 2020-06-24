@@ -31,7 +31,9 @@ const IndexPage = () => (
       <Process/>
     </Layout>
 
-    <TrustPilot/>
+    {/*<TrustPilot/>*/}
+
+    <Divider/>
 
     <Layout>
       <CoreValues/>
