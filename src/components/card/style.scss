@@ -7,6 +7,14 @@ div.card {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   }
 
+  &.large {
+    width: 100%;
+  }
+
+  &.small {
+    width: 75%;
+  }
+
   .card-container {
     position: relative;
     width: 100%;

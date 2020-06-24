@@ -6,7 +6,21 @@ import IsometricBuildings from "../../images/isometric-buildings.png"
 
 export const BetterPartners = () => {
   return (
-    <section className={"half better-partners"}>
+    <section className={"better-partners"}>
+
+      <Card small>
+        <div className={"image-container middle left"}>
+          <img src={IsometricBuildings} alt={"isometric buildings"}/>
+        </div>
+        <div className={"centred content-container"}>
+          <h3 className={"fancy"}>Work in an agency?</h3>
+          <p>Join the greatest community of experts</p>
+        </div>
+        <div className={"image-container middle right"}>
+          <img src={IsometricBuildings} alt={"isometric buildings"}/>
+        </div>
+      </Card>
+
       <div className={"block centred"}>
         <div className={"pill"}>
           <p>The Sortlist story</p>
@@ -18,13 +32,13 @@ export const BetterPartners = () => {
           the right time.</p>
       </div>
 
-      <Card>
+      <Card large>
         <div className={"content-container"}>
           <h3 className={"fancy"}>Think Sortlist for your next need!</h3>
           <p>Simplify your research process and find the agency made for you.</p>
           <SkillSearch/>
         </div>
-        <div className={"image-container"}>
+        <div className={"image-container right bottom"}>
           <img src={IsometricBuildings} alt={"isometric buildings"}/>
         </div>
       </Card>

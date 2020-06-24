@@ -23,7 +23,7 @@ module.exports = {
       },
       useMinify: true,
       usePreload: true,
-      usePreconnect: false,
+      usePreconnect: true,
     },
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,

@@ -18,20 +18,24 @@ section.better-partners {
     text-align: center;
 
     p {
-      margin-top: 32px;
+      margin: 32px auto;
       line-height: 24px;
     }
   }
 
   > .card {
-    margin-top: 64px;
-    width: 100%;
+    margin: 64px auto;
     border-radius: 16px;
     background-color: $water;
     display: inline-flex;
 
     .content-container {
-      margin: 32px;
+      margin: 64px 48px;
+
+      &.centred {
+        margin: 40px auto;
+        text-align: center;
+      }
 
       * {
         color: $cool-dive;
@@ -40,22 +44,33 @@ section.better-partners {
       h3 {
         font-size: 24px;
         line-height: 28px;
-        font-weight: 700;
+        font-style: italic;
+        font-weight: 600;
       }
 
       p {
-        margin: 16px 0 24px;
+        margin: 16px 0 0;
       }
     }
 
     .image-container {
       position: absolute;
       height: 128px;
-      right: 0;
-      bottom: 0;
 
       img {
         width: 256px;
+      }
+
+      &.bottom {
+        bottom: 0;
+      }
+
+      &.left {
+        left: 0;
+      }
+
+      &.right {
+        right: 0;
       }
     }
   }

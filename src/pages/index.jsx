@@ -48,11 +48,6 @@ const IndexPage = () => (
 
     <Layout>
       <DiscoverAgencies/>
-    </Layout>
-
-    <Divider/>
-
-    <Layout>
       <BetterPartners/>
       <Footer/>
     </Layout>
