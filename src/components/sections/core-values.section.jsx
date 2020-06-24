@@ -60,7 +60,7 @@ export const CoreValues = () => {
         <CoreCompetencyCard image={TechnicalBrilliance}
                             title={"Technical Brilliance"}
                             content={"Bring technical knowledge to your projects."}
-                            chosenBy={"Digital/Brand Manager of 200+ employs"}/>
+                            chosenBy={"Digital/Brand Manager of 200+ employees"}/>
         <CoreCompetencyCard image={Innovation}
                             title={"Innovation"}
                             content={"Make your ideas to stand out from competition."}
