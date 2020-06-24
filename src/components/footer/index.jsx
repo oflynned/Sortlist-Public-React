@@ -32,7 +32,7 @@ export const Footer = () => {
               <li>How it works</li>
               <li>Testimonials</li>
               <li>Explore</li>
-              <li><a href={"#"}>I need an agency</a></li>
+              <li><a href={"/"}>I need an agency</a></li>
             </ul>
 
             <ul>
@@ -40,7 +40,7 @@ export const Footer = () => {
               <li>How it works</li>
               <li>Testimonials</li>
               <li>Pricing</li>
-              <li><a href={"#"}>I'm an agency</a></li>
+              <li><a href={"/"}>I'm an agency</a></li>
             </ul>
           </div>
         </div>

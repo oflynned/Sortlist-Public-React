@@ -5,9 +5,10 @@ import MagnifyingGlass from "../../images/magnifying-glass.svg"
 
 import { getRandomSkillInLocation } from "../../common/skills"
 
+const createList = (n = 30) => new Array(n).fill(0)
+
 export const PopularAgenciesNearby = () => {
-  const a = new Array(30).fill(0)
-  const recentSearches = a.map(() => getRandomSkillInLocation())
+  const recentSearches = createList().map(() => getRandomSkillInLocation())
 
   return (
     <section className={"popular-agencies-nearby"}>
@@ -25,21 +26,21 @@ export const PopularAgenciesNearby = () => {
         <ul>
           {recentSearches.slice(0, 10).map(
             ({ location, skill }) =>
-              <li><a href={"#"}>{skill} agencies in {location}</a></li>)}
+              <li><a href={"/"}>{skill} agencies in {location}</a></li>)}
         </ul>
         <ul>
           {recentSearches.slice(10, 20).map(
             ({ location, skill }) =>
-              <li><a href={"#"}>{skill} agencies in {location}</a></li>)}
+              <li><a href={"/"}>{skill} agencies in {location}</a></li>)}
         </ul>
         <ul>
           {recentSearches.slice(20, 30).map(
             ({ location, skill }) =>
-              <li><a href={"#"}>{skill} agencies in {location}</a></li>)}
+              <li><a href={"/"}>{skill} agencies in {location}</a></li>)}
         </ul>
       </div>
 
-      <a>Explore all countries</a>
+      <a href={"/"}>Explore all countries</a>
     </section>
   )
 }

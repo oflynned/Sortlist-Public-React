@@ -1,8 +1,8 @@
-import React, { Component, useEffect, useState } from "react"
+import React, { useEffect, useState } from "react"
 
 import { SkillCard } from "../skill-card"
 
-import { getRandomSkills, skills } from "../../common/skills"
+import { getRandomSkills } from "../../common/skills"
 import { locations } from "../../common/locations"
 
 import "./popular-services.section.scss"

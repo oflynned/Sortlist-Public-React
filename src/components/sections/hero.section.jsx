@@ -1,8 +1,5 @@
 import React from "react"
 import TextLoop from "react-text-loop"
-import { Card } from "../card"
-import { EditText } from "../edit-text"
-import { PrimaryButton } from "../button"
 
 import { Map } from "../lazy-image/map"
 
