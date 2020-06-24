@@ -19,7 +19,7 @@ export const Map = () => {
     query {
       placeholderImage: file(relativePath: { eq: "map.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1440) {
+          fluid(maxWidth: 1200, maxHeight: 740) {
             ...GatsbyImageSharpFluid
           }
         }
