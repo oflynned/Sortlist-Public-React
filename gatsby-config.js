@@ -17,9 +17,13 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Merriweather", "Lato", "Material Icons"]
+          families: ["Merriweather", "Lato", "Material Icons"],
+          fontDisplay: 'swap'
         }
-      }
+      },
+      useMinify: true,
+      usePreload: true,
+      usePreconnect: false,
     },
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
