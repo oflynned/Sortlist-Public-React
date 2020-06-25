@@ -1,3 +1,5 @@
+@import "./src/theme/colours.scss";
+
 section.popular-agencies-nearby {
   margin: 128px auto;
 
@@ -21,7 +23,7 @@ section.popular-agencies-nearby {
   }
 
   a {
-    color: #20C5E5;
+    color: $vivid-cerulean;
     text-decoration: none;
   }
 
