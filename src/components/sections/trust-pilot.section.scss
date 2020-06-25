@@ -1,15 +1,60 @@
+@import "./src/theme/colours";
+
 section.trust-pilot {
-  background-color: #0C1C4A;
 
   .curve {
-    overflow: hidden;
-    height: 192px;
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    background-color: white
+    background-color: white;
+
+    img {
+      height: 92px;
+      width: 100%
+    }
   }
 
   .container {
-    margin: 16px auto;
+    background-color: #0C1C4A;
+    padding: 92px;
+
+    .heading-container {
+      display: flex;
+      flex-direction: column;
+
+      .stars {
+        margin: 0 auto 16px;
+
+        span {
+          color: $caramel-finish;
+        }
+      }
+
+      h3 {
+        font-size: 24px;
+        line-height: 40px;
+        color: white;
+      }
+    }
+
+    .company-container {
+      max-width: 1200px;
+      margin: 16px auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .company {
+        width: 156px;
+        margin: 16px;
+      }
+    }
+  }
+
+  .reviews-container {
+    margin: 32px auto;
+    max-width: 1200px;
+    display: flex;
+
+    button {
+      margin: 16px auto;
+    }
   }
 }
