@@ -17,8 +17,7 @@ module.exports = {
       resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ["Merriweather:300,500,700", "Lato:300,500,700", "Material Icons"],
-          fontDisplay: "swap"
+          families: ["Merriweather:300,500,700", "Lato:300,500,700", "Material+Icons&display=swap"]
         }
       },
       useMinify: true,
