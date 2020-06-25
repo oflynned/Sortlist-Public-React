@@ -29,6 +29,10 @@ section.better-partners {
     background-color: $water;
     display: flex;
 
+    .card {
+      margin-top: 32px;
+    }
+
     .content-container {
       margin: 64px 48px;
 
