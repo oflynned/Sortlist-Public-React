@@ -1,5 +1,4 @@
 import React from "react"
-import faker from "faker"
 
 import { PrimaryButton } from "../button"
 import { Card } from "../card"
@@ -17,16 +16,15 @@ const Company = () => (
 )
 
 const Testimonial = () => {
-  const name = `${faker.name.findName()} ${faker.name.lastName()}`
-  const quote = faker.lorem.paragraph()
-
   return (
     <Card className={"testimonial"} shadow>
       <div className={"testimonial-content"}>
-        <h3 className={"fancy"}>{name}</h3>
+        <h3 className={"fancy"}>John Smith</h3>
         <p className={"fancy"}>Posted on <a href={"/"} className={"fancy"}>trustpilot.com</a></p>
         <Stars/>
-        <p>"{quote}"</p>
+        <p>"Sit eaque consequuntur. Alias et dolor totam voluptas inventore assumenda perferendis. Cum enim quidem
+          perspiciatis cupiditate. Ducimus ut consequuntur deleniti numquam molestias adipisci voluptatum possimus.
+          Nihil est sed. Facilis rerum rerum tenetur et saepe sapiente."</p>
       </div>
     </Card>
   )

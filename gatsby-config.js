@@ -18,13 +18,14 @@ module.exports = {
       options: {
         google: {
           families: ["Merriweather", "Lato", "Material Icons"],
-          fontDisplay: 'swap'
+          fontDisplay: "swap"
         }
       },
       useMinify: true,
       usePreload: true,
-      usePreconnect: true,
+      usePreconnect: true
     },
+    `gatsby-plugin-webpack-bundle-analyser-v2`,
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
