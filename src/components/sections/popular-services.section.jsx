@@ -38,7 +38,6 @@ export const PopularServices = () => {
     setFilteredSkills(skills)
   }, [selectedTabIndex])
 
-
   return (
     <section className={"popular-services"}>
       <h1 className={"fancy"}>Most popular services in your area</h1>

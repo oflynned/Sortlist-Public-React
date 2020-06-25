@@ -2,7 +2,8 @@ import React from "react"
 import "./better-partners.section.scss"
 import { Card } from "../card"
 import { SkillSearch } from "../complex-components/skill-search"
-import IsometricBuildings from "../../images/isometric-buildings.png"
+// import IsometricBuildings from "../../images/isometric-buildings.png"
+import { IsometricBuildings } from "../lazy-image/isometric-buildings"
 
 export const BetterPartners = () => {
   return (
@@ -10,14 +11,16 @@ export const BetterPartners = () => {
 
       <Card small>
         <div className={"image-container middle left"}>
-          <img src={IsometricBuildings} alt={"isometric buildings"}/>
+          {/*<img src={IsometricBuildings} alt={"isometric buildings"}/>*/}
+          <IsometricBuildings/>
         </div>
         <div className={"centred content-container"}>
           <h3 className={"fancy"}>Work in an agency?</h3>
           <p>Join the greatest community of experts</p>
         </div>
         <div className={"image-container middle right"}>
-          <img src={IsometricBuildings} alt={"isometric buildings"}/>
+          <IsometricBuildings/>
+          {/*<img src={IsometricBuildings} alt={"isometric buildings"}/>*/}
         </div>
       </Card>
 
@@ -39,7 +42,8 @@ export const BetterPartners = () => {
           <SkillSearch/>
         </div>
         <div className={"image-container right bottom"}>
-          <img src={IsometricBuildings} alt={"isometric buildings"}/>
+          <IsometricBuildings/>
+          {/*<img src={IsometricBuildings} alt={"isometric buildings"}/>*/}
         </div>
       </Card>
     </section>
