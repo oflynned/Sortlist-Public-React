@@ -1,4 +1,5 @@
 import React from "react"
+import faker from "faker"
 
 import { PrimaryButton } from "../button"
 import { Card } from "../card"
@@ -14,6 +15,22 @@ const Company = () => (
     <img src={TechCrunch} alt={"tech crunch"}/>
   </div>
 )
+
+const Testimonial = () => {
+  const name = `${faker.name.findName()} ${faker.name.lastName()}`
+  const quote = faker.lorem.paragraph()
+
+  return (
+    <Card className={"testimonial"} shadow>
+      <div className={"testimonial-content"}>
+        <h3 className={"fancy"}>{name}</h3>
+        <p className={"fancy"}>Posted on <a href={"/"} className={"fancy"}>trustpilot.com</a></p>
+        <Stars/>
+        <p>"{quote}"</p>
+      </div>
+    </Card>
+  )
+}
 
 const Stars = () => (
   <div className={"stars"}>
@@ -77,8 +94,25 @@ export const TrustPilot = () => {
         </Card>
       </div>
 
-
       <div className={"reviews-container"}>
+        <div className={"testimonials"}>
+          <div className={"row"}>
+            <Testimonial/>
+            <Testimonial/>
+            <Testimonial/>
+          </div>
+          <div className={"row"}>
+            <Testimonial/>
+            <Testimonial/>
+            <Testimonial/>
+          </div>
+          <div className={"row"}>
+            <Testimonial/>
+            <Testimonial/>
+            <Testimonial/>
+          </div>
+        </div>
+
         <PrimaryButton>Find my agency</PrimaryButton>
       </div>
     </section>
