@@ -1,6 +1,6 @@
 import React from "react"
 import "./style.scss"
-import { Card } from "../card"
+import { Card } from "../../base/card"
 
 import "./style.scss"
 

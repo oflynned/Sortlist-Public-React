@@ -5,7 +5,7 @@ import Cog from "../../images/cog.svg"
 import SimpleProcess from "../../images/simple-process.jpg"
 import CompleteInfo from "../../images/complete-info.jpg"
 import PersonalAssistance from "../../images/personal-assitance.jpg"
-import { PrimaryButton } from "../button"
+import { PrimaryButton } from "../base/button"
 
 export const Process = () => {
   return (

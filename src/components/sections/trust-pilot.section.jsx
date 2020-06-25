@@ -1,11 +1,11 @@
 import React from "react"
 
-import { PrimaryButton } from "../button"
-import { Card } from "../card"
+import { PrimaryButton } from "../base/button"
+import { Card } from "../base/card"
 
 import Curve from "../../images/curve.svg"
 import TechCrunch from "../../images/techcrunch.svg"
-import { Lapresse } from "../lazy-image/lapresse"
+import { Lapresse } from "../base/lazy-image/lapresse"
 
 import "./trust-pilot.section.scss"
 

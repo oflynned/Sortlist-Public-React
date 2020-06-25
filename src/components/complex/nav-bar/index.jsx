@@ -1,18 +1,18 @@
 import PropTypes from "prop-types"
 import React from "react"
-import Logo from "../../images/logo.svg"
+import Logo from "../../../images/logo.svg"
 
 import "./style.scss"
-import { NeutralButton, PrimaryButton, SecondaryButton } from "../button"
-import { SearchBox } from "../edit-text"
+import { NeutralButton, PrimaryButton, SecondaryButton } from "../../base/button"
+import { SearchBox } from "../../base/edit-text"
 
-const Header = ({ siteTitle }) => (
+const NavBar = ({ siteTitle }) => (
   <header className={"navbar"}>
     <div className={"container"}>
       <div>
         <img src={Logo} alt={"logo"}/>
         <NeutralButton>For clients</NeutralButton>
-        <NeutralButton>For clients</NeutralButton>
+        <NeutralButton>For agencies</NeutralButton>
       </div>
       <div>
         <SearchBox/>
@@ -27,12 +27,12 @@ const Header = ({ siteTitle }) => (
   </header>
 )
 
-Header.propTypes = {
+NavBar.propTypes = {
   siteTitle: PropTypes.string
 }
 
-Header.defaultProps = {
+NavBar.defaultProps = {
   siteTitle: ``
 }
 
-export default Header
+export default NavBar

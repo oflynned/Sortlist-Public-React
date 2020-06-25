@@ -1,7 +1,7 @@
 import React from "react"
 import "./style.scss"
 
-import Logo from "../../images/logo.svg"
+import Logo from "../../../images/logo.svg"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTwitter, faInstagram, faLinkedin, faYoutube, faFacebook } from "@fortawesome/free-brands-svg-icons"
 

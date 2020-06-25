@@ -2,8 +2,8 @@ import React from "react"
 import "./core-values.section.scss"
 
 import DrawingTools from "../../images/drawing-tools.svg"
-import { PrimaryButton } from "../button"
-import { Card } from "../card"
+import { PrimaryButton } from "../base/button"
+import { Card } from "../base/card"
 
 import Expertise from "../../images/expertise.png"
 import Professionalism from "../../images/professionalism.png"

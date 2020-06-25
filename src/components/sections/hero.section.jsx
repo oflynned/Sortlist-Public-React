@@ -1,11 +1,11 @@
 import React from "react"
 import TextLoop from "react-text-loop"
 
-import { Map } from "../lazy-image/map"
+import { Map } from "../base/lazy-image/map"
 
 import "./hero.section.scss"
 import { getRandomSkills } from "../../common/skills"
-import { SkillSearch } from "../complex-components/skill-search"
+import { SkillSearch } from "../complex/skill-search"
 
 const skillLimit = 10
 const expertiseAreas = getRandomSkills(skillLimit)

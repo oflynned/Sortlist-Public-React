@@ -4,20 +4,27 @@ header.navbar {
   max-width: 1200px;
   margin: 16px auto;
 
-  div.container {
+  .container {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    flex-wrap: nowrap;
 
-    > div {
-      * {
-        color: rgb(73, 80, 101);
+    div {
+      display: flex;
+      max-height: 40px;
+
+      img {
+        align-self: center;
+      }
+
+      button {
+        white-space: nowrap;
       }
 
       span {
+        align-self: center;
         color: #828899;
         font-size: 24px;
-        line-height: 24px;
         margin-left: 12px;
 
         &:hover {

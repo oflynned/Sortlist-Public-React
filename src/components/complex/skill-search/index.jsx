@@ -1,12 +1,14 @@
 import React from "react"
-import { EditText } from "../../edit-text"
-import { PrimaryButton } from "../../button"
-import { Card } from "../../card"
+import { EditText } from "../../base/edit-text"
+import { PrimaryButton } from "../../base/button"
+import { Card } from "../../base/card"
+
+import "./style.scss"
 
 export const SkillSearch = () => {
   return (
     <Card className={"search-card"} shadow>
-      <div>
+      <div className={"search-input"}>
         <span className={"material-icons primary"}>search</span>
         <EditText placeholder={"What services do you need?"}/>
       </div>

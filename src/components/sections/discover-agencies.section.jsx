@@ -2,7 +2,7 @@ import React from "react"
 import "./discover-agencies.section.scss"
 
 import Globe from "../../images/globe.svg"
-import { PrimaryButton } from "../button"
+import { PrimaryButton } from "../base/button"
 
 export const DiscoverAgencies = () => {
   return (

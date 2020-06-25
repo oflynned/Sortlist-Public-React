@@ -1,9 +1,8 @@
 import React from "react"
 import "./better-partners.section.scss"
-import { Card } from "../card"
-import { SkillSearch } from "../complex-components/skill-search"
-// import IsometricBuildings from "../../images/isometric-buildings.png"
-import { IsometricBuildings } from "../lazy-image/isometric-buildings"
+import { Card } from "../base/card"
+import { SkillSearch } from "../complex/skill-search"
+import { IsometricBuildings } from "../base/lazy-image/isometric-buildings"
 
 export const BetterPartners = () => {
   return (
@@ -11,7 +10,6 @@ export const BetterPartners = () => {
 
       <Card small>
         <div className={"image-container middle left"}>
-          {/*<img src={IsometricBuildings} alt={"isometric buildings"}/>*/}
           <IsometricBuildings/>
         </div>
         <div className={"centred content-container"}>
@@ -20,7 +18,6 @@ export const BetterPartners = () => {
         </div>
         <div className={"image-container middle right"}>
           <IsometricBuildings/>
-          {/*<img src={IsometricBuildings} alt={"isometric buildings"}/>*/}
         </div>
       </Card>
 
@@ -43,7 +40,6 @@ export const BetterPartners = () => {
         </div>
         <div className={"image-container right bottom"}>
           <IsometricBuildings/>
-          {/*<img src={IsometricBuildings} alt={"isometric buildings"}/>*/}
         </div>
       </Card>
     </section>

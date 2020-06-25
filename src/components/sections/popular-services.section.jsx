@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react"
 
-import { SkillCard } from "../skill-card"
+import { SkillCard } from "../complex/skill-card"
 
 import { getRandomSkills } from "../../common/skills"
 import { locations } from "../../common/locations"
 
 import "./popular-services.section.scss"
-import { Selector } from "../selector"
+import { Selector } from "../base/selector"
 
 const skillsPerLocation = locations.map(location => {
   return {
