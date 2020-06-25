@@ -5,7 +5,7 @@ import { Card } from "../card"
 
 import Curve from "../../images/curve.svg"
 import TechCrunch from "../../images/techcrunch.svg"
-import Lapresse from "../../images/lapresse.jpg"
+import { Lapresse } from "../lazy-image/lapresse"
 
 import "./trust-pilot.section.scss"
 
@@ -59,7 +59,8 @@ export const TrustPilot = () => {
           <div className={"testimonial-container"}>
             <div className={"text-container"}>
               <Stars/>
-              <h1 className={"fancy"}>&quot;To summarize, Sortlist in three words I would say: ease, proximity, useful.&quot;</h1>
+              <h1 className={"fancy"}>&quot;To summarize, Sortlist in three words I would say: ease, proximity,
+                useful.&quot;</h1>
               <div className={"role"}>
                 <h3>Tatiana Debrabandere</h3>
                 <p>Project Manager at Lapresse</p>
@@ -70,7 +71,7 @@ export const TrustPilot = () => {
               </div>
             </div>
             <div className={"image-container"}>
-              <img src={Lapresse} alt={"testimonial"}/>
+              <Lapresse/>
             </div>
           </div>
         </Card>

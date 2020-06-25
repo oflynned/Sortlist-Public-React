@@ -76,7 +76,7 @@ section.trust-pilot {
         margin: 0 64px;
 
         .role {
-          margin: 24px 0;
+          margin: 32px 0;
         }
 
         h1 {
@@ -97,7 +97,6 @@ section.trust-pilot {
             }
           }
 
-
           span {
             margin-left: 16px;
             font-size: 18px;
@@ -106,12 +105,14 @@ section.trust-pilot {
       }
 
       .image-container {
+        height: 384px;
+        width: 670px;
         align-self: flex-end;
 
         img {
+          width: 100%;
           border-top-right-radius: 16px;
           border-bottom-right-radius: 16px;
-          height: 384px;
         }
       }
     }
