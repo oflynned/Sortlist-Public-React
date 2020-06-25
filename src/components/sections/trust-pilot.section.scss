@@ -11,21 +11,22 @@ section.trust-pilot {
     }
   }
 
+  .stars {
+    margin: 0 auto 16px;
+
+    span {
+      color: $sea-buckthorn;
+    }
+  }
+
   .container {
+    position: relative;
     background-color: #0C1C4A;
     padding: 92px;
 
     .heading-container {
       display: flex;
       flex-direction: column;
-
-      .stars {
-        margin: 0 auto 16px;
-
-        span {
-          color: $caramel-finish;
-        }
-      }
 
       h3 {
         font-size: 24px;
@@ -35,8 +36,8 @@ section.trust-pilot {
     }
 
     .company-container {
+      margin: 32px auto 192px;
       max-width: 1200px;
-      margin: 16px auto;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -48,8 +49,76 @@ section.trust-pilot {
     }
   }
 
+  .main-testimonial {
+    position: absolute;
+    width: 1200px;
+    height: 384px;
+    left: calc(50% - (1200px / 2));
+    top: calc(100% - (384px / 2));
+
+    &.card {
+      border-radius: 16px;
+
+      .card-container {
+        padding: 0;
+        width: 100%;
+      }
+    }
+
+    .testimonial-container {
+      display: flex;
+      width: 100%;
+
+      .text-container {
+        width: 100%;
+        height: fit-content;
+        align-self: center;
+        margin: 0 64px;
+
+        .role {
+          margin: 24px 0;
+        }
+
+        h1 {
+          font-size: 32px;
+          line-height: 40px;
+        }
+
+        .read-more {
+          display: inline-flex;
+
+          a, span {
+            color: $vivid-cerulean;
+            justify-content: center;
+            line-height: 18px;
+
+            &:hover {
+              cursor: pointer;
+            }
+          }
+
+
+          span {
+            margin-left: 16px;
+            font-size: 18px;
+          }
+        }
+      }
+
+      .image-container {
+        align-self: flex-end;
+
+        img {
+          border-top-right-radius: 16px;
+          border-bottom-right-radius: 16px;
+          height: 384px;
+        }
+      }
+    }
+  }
+
   .reviews-container {
-    margin: 32px auto;
+    margin: 224px auto 32px;
     max-width: 1200px;
     display: flex;
 
